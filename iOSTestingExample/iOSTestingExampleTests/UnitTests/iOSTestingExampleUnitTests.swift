@@ -21,5 +21,6 @@ class iOSTestingExampleUnitTests: XCTestCase {
 
     func test() {
         XCTAssertTrue(true)
+        XCTAssertNotNil(UIStoryboard(name: "Main", bundle: nil))
     }
 }
