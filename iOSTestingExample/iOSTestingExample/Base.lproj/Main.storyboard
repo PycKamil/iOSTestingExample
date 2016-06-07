@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="width" constant="133" id="pkA-0O-X5j"/>
                                     <constraint firstAttribute="width" constant="133" id="xne-HN-FeN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -85,6 +85,7 @@
                     </view>
                     <connections>
                         <outlet property="answearTextField" destination="ohf-4H-ngs" id="hrS-jw-HL3"/>
+                        <outlet property="questionLabel" destination="9W7-jh-3XE" id="zKT-s5-Oda"/>
                         <outlet property="sendButton" destination="Bpf-c2-J5J" id="V8S-ds-oV3"/>
                     </connections>
                 </viewController>

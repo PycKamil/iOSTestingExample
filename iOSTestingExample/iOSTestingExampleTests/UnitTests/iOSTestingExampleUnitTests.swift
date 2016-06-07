@@ -8,7 +8,6 @@
 
 import Foundation
 import XCTest
-
 class iOSTestingExampleUnitTests: XCTestCase {
 
     override func setUp() {
@@ -20,7 +19,6 @@ class iOSTestingExampleUnitTests: XCTestCase {
     }
 
     func test() {
-        XCTAssertTrue(true)
         XCTAssertNotNil(UIStoryboard(name: "Main", bundle: nil))
     }
 }

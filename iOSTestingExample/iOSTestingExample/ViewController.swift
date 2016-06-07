@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answearTextField: UITextField!
     @IBOutlet var sendButton: UIButton!
     
