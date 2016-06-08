@@ -26,6 +26,7 @@ PODS:
   - KIF/Core (3.4.2)
   - OCMock (3.3)
   - SnapKit (0.21.0)
+  - SSDynamicText (1.0.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.1)
@@ -33,6 +34,7 @@ DEPENDENCIES:
   - KIF (~> 3.4.2)
   - OCMock (~> 3.3)
   - SnapKit (~> 0.20)
+  - SSDynamicText (~> 1.0)
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
@@ -45,5 +47,6 @@ SPEC CHECKSUMS:
   KIF: b518c9831453abea5afdbbde3908ec47832d6d56
   OCMock: d68685bde31f69cb61d518dcb39269080c78b5ed
   SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
+  SSDynamicText: 145b9049bde69e24ea7690018808615562f996ff
 
 COCOAPODS: 0.39.0

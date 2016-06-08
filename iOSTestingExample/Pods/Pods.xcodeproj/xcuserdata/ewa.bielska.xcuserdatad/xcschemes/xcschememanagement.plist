@@ -34,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SSDynamicText.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1C753639ECBCB75F3D18A49ACF31D6CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>34B0F55D69A938117700AFBD9BFF8F93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C755B8E978602F27BEFD64EAB7FDA53</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -63,11 +78,6 @@
 			<true/>
 		</dict>
 		<key>C4B626F99CE43C4E7F967B3DA5EE188F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F7B6A00999DFA399143180655E38591C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

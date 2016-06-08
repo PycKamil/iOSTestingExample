@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'iOSTestingExample' do
     pod 'Firebase', '>= 2.5.1'
+    pod 'SSDynamicText', '~> 1.0'
 end
 
 target 'iOSTestingExampleTests' do
