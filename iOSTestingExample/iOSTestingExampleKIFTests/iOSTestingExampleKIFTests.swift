@@ -38,6 +38,7 @@ class iOSTestingExampleKIFTests: KIFTestCase {
     }
 
     func testAfterEnteringAnswearAndTappingButtonSendTextFieldShouldBeEmpty() {
+
         // Enter text into text field
         viewTester().usingIdentifier("answearTextField").enterText(testAnswear, expectedResult: testAnswear)
 

@@ -11,7 +11,9 @@ import FBSnapshotTestCase
 @testable import iOSTestingExample
 
 class iOSTestingExampleSnapshotTests: FBSnapshotTestCase {
-    
+
+    // MARK: Run tests on iPhone 6S simulator
+
     // MARK: Setup
     override func setUp() {
         super.setUp()

@@ -18,7 +18,7 @@ class iOSTestingExampleUnitTests: XCTestCase {
         super.tearDown()
     }
 
-    func test() {
+    func testWrotQA() {
         XCTAssertNotNil(UIStoryboard(name: "Main", bundle: nil))
     }
 }

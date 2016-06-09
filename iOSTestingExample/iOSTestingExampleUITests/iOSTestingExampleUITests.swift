@@ -17,18 +17,28 @@ class iOSTestingExampleUITests: XCTestCase {
         super.setUp()
         continueAfterFailure = false
         XCUIApplication().launch()
+        XCUIDevice.sharedDevice().orientation = .Portrait
     }
     
     override func tearDown() {
         super.tearDown()
     }
+
+    // MARK: Tests
     
     func testMainViewControllerLayout() {
+
+        XCUIDevice.sharedDevice().orientation = .Portrait
 
         XCTAssertTrue(app.otherElements.containingType(.Image, identifier:"wrotQA-logo").element.exists)
         XCTAssertTrue(app.staticTexts["questionLabel"].exists)
         XCTAssertTrue(app.textFields["answearTextField"].exists)
-        XCTAssertTrue(app.buttons["sendButton"].exists)
+
+        // Wait for send button
+        let sendButton = app.buttons["sendButton"]
+        let exists = NSPredicate(format: "exists = true")
+        expectationForPredicate(exists, evaluatedWithObject: sendButton, handler: nil)
+        waitForExpectationsWithTimeout(5, handler: nil)
     }
 
     func testAfterEnteringAnswearAndTappingButtonSendTextFieldShouldBeEmpty() {
